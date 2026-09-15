@@ -1,7 +1,8 @@
-name:demo-workflow
-on:[push]
+name: demo-workflow
+on: [push]
 jobs:
- demo-job:
-  runs-on:ubuntu-latest
-  steps:
-   -run:echo"hello github actions"
+  demo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello github actions"
+
